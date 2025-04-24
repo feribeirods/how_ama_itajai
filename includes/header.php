@@ -16,7 +16,7 @@
                 <ul>
                     <li><a class="selected" href="index.php">Home</a></li>
                     <li><a href="about.php">Sobre o Ama</a></li>
-                    <li><a href="contato.php">Seja um doador</a></li>
+                    <li><a href="donate.php">Seja um doador</a></li>
                     <li class="btns-header">
                         <button class="btn-primario">Entrar</button>
                         <button class="btn-secundario">Cadastre-se</button>
