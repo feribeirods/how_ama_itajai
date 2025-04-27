@@ -107,20 +107,6 @@ button {
     z-index: 2;
 }
 
-.laco1 {
-    position: absolute;
-    left: 24px;
-    bottom: -15px;
-    z-index: 1;
-}
-
-.laco2 {
-    position: absolute;
-    left: 435px;
-    bottom: 0;
-    z-index: 1;
-}
-
 footer {
     height: 300px;
     background-color: #2184AD;
@@ -476,3 +462,57 @@ input[type="text"]:focus {
     display: flex;
     gap: 10px;
 }
+
+@media (max-width: 1199px) {
+    .wrapper {
+        width: 900px;
+    }
+
+    .valores>div {
+        padding-inline: 20px;
+    }
+
+    .missao p, .visao p, .valores p, .container-texto-sobre p {
+        color: #8299A4;
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .visao img {
+        left: 20px;
+    }
+
+    .visao .background-img {
+        left: 35px;
+    }
+
+    .esquerda {
+        width: 360px;
+    }
+
+    .esquerda h1 {
+        font-size: 30px;
+        color: #FFF;
+    }
+
+    .esquerda p {
+        font-size: 14px;
+    }
+
+    .texto-card {
+        font-size: 12px;
+        width: 325px;
+    }
+
+    .container-doacoes {
+        padding: 50px 25px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .missao>div, .visao>div, .valores>div {
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
+  

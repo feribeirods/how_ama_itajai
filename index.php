@@ -21,8 +21,6 @@ $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
                 <div class="direita">
                     <img class="img-crianca" src="assets/img/banner/IMG1 1.png" alt="">
-                    <img class="laco1" src="assets/img/banner/Laço_ 1.png" alt="">
-                    <img class="laco2" src="assets/img/banner/Laço_ 2.png" alt="">
                 </div>
             </div>
         </div>
